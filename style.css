@@ -1,0 +1,92 @@
+/* & This will style the font of the entire webpage */
+* {
+    font-family: "Caviar Dreams";
+    font-style: italic;
+    letter-spacing: .1em;
+}
+
+/* & This will style the entire webpage */
+body {
+    /* ~ Colors inspried by my VS Code Theme */
+    background-color: #393a55;
+    color: #ff9eb5;
+    /* ~ This will remove the default browser spacing */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* & This will create a flex conrainer */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* & This will style the header images */
+.img-header {
+    width: 200px;
+    border: 5px solid #ff9eb5;
+}
+
+h1 {
+    width: 30%;
+    text-align: center;
+    border: 5px solid;
+    background-color: #ff9eb5;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+/* & This will style the horizontal line or dividing line to seperate the different sections on the webpage */
+.section-divider {
+    width: 80%;
+    height: 10px;
+    background: linear-gradient(90deg, #a9f1df 25%, #ffbbbb 75%)no-repeat;
+    border: none;
+}
+
+/* & This will style the <h2> element */
+h2 {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+
+/* & This will style the horizontal divider or dividing line after each title for the section */
+.title-divider {
+    width: 30%;
+    height: 10px;
+    background: linear-gradient(90deg, #a9f1df 25%, #ffbbbb 75%)no-repeat;
+    border: none;
+}
+
+/* & This will style the <li> element and the <li> marker */
+li {
+    list-style: circle;
+}
+
+li::marker {
+    font-size: 1.6em;
+}
+
+/* & This will style the footer section of the webpage */
+footer {
+    text-align: center;
+    bottom: 0;
+    padding: 20px;
+}
+
+/* & This will style the <h4> elements */
+h4 {
+    text-align: center;
+
+}
+
+/* & This will style the <span> element */
+span {
+    text-decoration: underline red 2px;
+    text-decoration-style: wavy;
+    text-underline-offset: 5px;
+
+}

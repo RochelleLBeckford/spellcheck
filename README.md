@@ -53,6 +53,13 @@
     -   [ ] The &lt;img&gt; element:
         -   [ ] Is used for all the images on the webpage
 
+-   [ ] The &lt;nav&gt; element:
+    -   [ ] This element tends to contain ordered lists, unordered lists, or even both types of lists
+    -   [ ] Each &lt;li&gt; element will house an &lt;a&gt; elements with the #id-name of the desired section or part of the webpage it will be linked within the "href" attribute
+        -   [ ] For instance:
+            -   [ ] &lt;a href="#bg-color-section"&gt;🌸 BG Color 🌸&lt;/a&gt;
+            -   [ ] 
+
 -   [ ] The &lt;br&gt; element:
     -   [ ] Creates a new line in your code and forces whatever comes after to start on a new lin
 

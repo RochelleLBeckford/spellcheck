@@ -58,7 +58,8 @@
     -   [ ] Each &lt;li&gt; element will house an &lt;a&gt; elements with the #id-name of the desired section or part of the webpage it will be linked within the "href" attribute
         -   [ ] For instance:
             -   [ ] &lt;a href="#bg-color-section"&gt;🌸 BG Color 🌸&lt;/a&gt;
-            -   [ ] 
+            -   [ ] <a>🌸 BG Color 🌸</a>
+            -   [ ] When the user would clixk the 🌸 BG Color 🌸 link they would then be navigated to that section of the webpage
 
 -   [ ] The &lt;br&gt; element:
     -   [ ] Creates a new line in your code and forces whatever comes after to start on a new lin
